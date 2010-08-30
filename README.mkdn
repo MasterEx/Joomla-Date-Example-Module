@@ -1,0 +1,1 @@
+This is the first Joomla! module that I have created! It's very simple but it may help someone to understand the basic structure of a Joomla! module. More information here: http://docs.joomla.org/How_to_create_a_module

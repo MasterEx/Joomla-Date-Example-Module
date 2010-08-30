@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.20">
+    <!-- Name of the Module -->
+        <name>Date Info</name> 
+ 
+    <!-- Name of the Author -->
+        <author>Periklis Ntanasis</author> 
+ 
+    <!-- Version Date of the Module -->
+        <creationDate>2010-08-31</creationDate> 
+ 
+    <!-- Copyright information -->
+        <copyright>All rights reserved by Periklis Ntanasis.</copyright> 
+ 
+    <!-- License Information -->
+        <license>GPL 2.0</license> 
+ 
+    <!-- Author's email address -->
+        <authorEmail>pntanasis@gmail.com</authorEmail> 
+ 
+    <!-- Author's website -->
+        <authorUrl>periklis.is-a-geek.com</authorUrl> 
+ 
+    <!-- Module version number -->
+        <version>1.0.0</version> 
+ 
+    <!-- Description of what the module does -->
+        <description>Shows current Time/Date.</description>
+ 
+    <!-- Listing of all files that should be installed for the module to function -->
+        <files>
+        <!-- The "module" attribute signifies that this is the main controller file -->
+                <filename module="mod_date_info">mod_date_info.php</filename>
+                <filename>index.html</filename>
+                <filename>helper.php</filename>
+                <filename>tmpl/default.php</filename>
+                <filename>tmpl/index.html</filename>
+        </files>
+ 
+    <languages>
+        <!-- Any language files included with the module -->
+        <language tag="en-GB">en-GB.mod_date_info.ini</language>
+    </languages>
+    
+</install>
